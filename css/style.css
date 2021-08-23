@@ -79,7 +79,18 @@ a:active {
   transition: 0.2s opacity;
 }
 
+.button:active {
+  color: #994c30;
+}
+
 .button:hover {
   opacity: 0.8;
   text-decoration: none;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #3197D6;
+  text-transform: uppercase;
+  border: 2px solid #3197D6;
 }
