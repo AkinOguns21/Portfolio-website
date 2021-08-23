@@ -21,6 +21,10 @@ h1{
   font-family: 'Khula', sans-serif;
 }
 
+h1, h2, h3 {
+  line-height: 1.4;
+}
+
 h2 {
   font-family: 'Spinnaker', sans-serif;
 }
