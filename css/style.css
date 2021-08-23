@@ -49,13 +49,20 @@ img {
   width: 100%;
 }
 
-
 a {
   color: #3197D6;
   text-decoration:  none;
 }
 
+a:visited {
+  color: #ff7f50;
+}
+
 a:hover {
   color: #D6DDE3;
   text-decoration: underline;
+}
+
+a:active {
+  color: #994c30;
 }
