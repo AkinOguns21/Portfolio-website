@@ -53,17 +53,28 @@ a {
   color: #3197D6;
   text-decoration:  none;
 }
-
+/*
 a:visited {
   color: #ff7f50;
-}
+}*/
 
 a:hover,
 a:focus {
   color: #D6DDE3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
   color: #994c30;
+}
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #3197D6;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #394956; /* width of the border, type, color */
+  transition: 0.2s opacity;
 }
