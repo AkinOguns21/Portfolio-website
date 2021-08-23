@@ -50,13 +50,13 @@ img {
 }
 
 a {
-  color: #3197D6;
+  color: #12505a;
   text-decoration:  none;
 }
-/*
+
 a:visited {
-  color: #ff7f50;
-}*/
+  color: #994c30;
+}
 
 a:hover,
 a:focus {
