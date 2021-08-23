@@ -58,11 +58,11 @@ a {
   color: #12505a;
   text-decoration:  none;
 }
-
+/*
 a:visited {
   color: #994c30;
 }
-
+*/
 a:hover,
 a:focus {
   color: #D6DDE3;
