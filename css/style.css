@@ -106,5 +106,6 @@ a:active {
 }
 
 header {
-  background-color: #394956
+  background-color: #394956;
+  padding: 10px;
 }
