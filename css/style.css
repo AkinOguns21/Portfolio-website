@@ -115,3 +115,9 @@ header {
 *{
   box-sizing: border-box;
 }
+
+/* Layout styling*/
+
+.container {
+  padding: 0 15px;
+}
