@@ -133,3 +133,7 @@ header {
 #hero h1 {
   text-align: center;
 }
+
+.logo {
+  max-width: 250px;
+}
