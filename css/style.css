@@ -170,3 +170,10 @@ nav > ul > li> a {
 #hero {
   background-color: #ffe4c4;
 }
+
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
