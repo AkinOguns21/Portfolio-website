@@ -105,8 +105,9 @@ a:active {
   width: 25px;
 }
 
-{
-  background-color: #394956;
+
+header {
+  /*background-color: #394956;*/
   text-align: center;
   margin: 10px 0;
 }
