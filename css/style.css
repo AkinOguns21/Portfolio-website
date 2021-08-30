@@ -71,6 +71,16 @@ a:focus {
   text-decoration: none;
 }
 
+nav > ul > li > a:visited {
+    color: #994c30;
+}
+
+nav > ul > li > a:hover, a:focus {
+  color: #D18DCF;
+  text-decoration: none;
+}
+
+
 a:active {
   color: #994c30;
 }
@@ -133,7 +143,7 @@ header {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 50px;
 }
 
 nav > ul {
