@@ -6,7 +6,9 @@ Other Colours (Cream): #F5F4F2
 Other colour (Light Blue): #3197D6
 */
 
-
+*{
+  box-sizing: border-box;
+}
 
 body {
   background-color: #D6DDE3;
@@ -110,11 +112,6 @@ header {
   /*background-color: #394956;*/
   text-align: center;
   margin: 10px 0;
-}
-
-
-*{
-  box-sizing: border-box;
 }
 
 /* Layout styling*/
