@@ -119,7 +119,7 @@ a:active {
 
 
 header {
-  /*background-color: #394956;*/
+  background-color: #394956;
   text-align: center;
   margin: 10px 0;
 }
@@ -149,6 +149,11 @@ header {
 nav > ul {
   list-style-type: none;
   padding: 0;
+}
+
+nav {
+  display: inline-block;
+  width: 100%''
 }
 
 nav > ul >li {
