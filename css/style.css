@@ -125,3 +125,11 @@ header {
 .row {
   margin: 25px 0;
 }
+
+#work .row {
+  padding-bottom: 25x; border-bottom: 1px solid #4a4a4a
+}
+
+#hero h1 {
+  text-align: center;
+}
