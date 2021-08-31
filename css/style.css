@@ -211,3 +211,11 @@ footer {
   color: #ffffff;
   text-align: center;
 }
+
+#work h2 {
+  margin-top: 40px;
+}
+
+.button.center {
+margin-left: 75px;
+}
