@@ -142,8 +142,9 @@ header {
   padding-bottom: 25x; border-bottom: 1px solid #4a4a4a
 }
 
-#hero h1 {
+#hero h1, h2, p {
   text-align: center;
+  color: #ffffff;
 }
 
 .logo {
@@ -176,7 +177,7 @@ nav > ul > li> a {
 }
 
 #hero {
-  background-color: #ffe4c4;
+  background-color: #394956;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
