@@ -234,9 +234,8 @@ footer {
 }
 
 .button.center {
-margin: 0 0 0 75px;
+margin: 0 0 0 90px;
 text-decoration: none;
-
 }
 
 
@@ -248,4 +247,9 @@ text-decoration: none;
 #projectcopy p {
   color: #ffffff;
   text-align: center;
+}
+
+
+.centbutton {
+  margin: 0 auto;
 }
