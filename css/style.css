@@ -61,11 +61,11 @@ a {
   color: #F5F4F2;
   text-decoration: none;
 }
-/*
+
 a:visited {
   color: #994c30;
 }
-*/
+
 a:hover,
 a:focus {
   color: #D18DCF;
@@ -204,6 +204,10 @@ main {
   text-align: justify;
 }
 
+#myworkstory p {
+  text-align: justify;
+}
+
 
 footer {
   background-color: #394956;
@@ -217,6 +221,11 @@ footer {
 
 #work h2 {
   margin-top: 40px;
+}
+
+#myworkstory h1, h2 {
+  text-align: center;
+  color: #3197D6;
 }
 
 .button.center {
