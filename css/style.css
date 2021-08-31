@@ -59,7 +59,7 @@ img {
 
 a {
   color: #F5F4F2;
-  text-decoration: underline;
+  text-decoration: none;
 }
 /*
 a:visited {
@@ -114,8 +114,9 @@ a:active {
 }
 
 .socialimage {
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
+  margin: 15px 4px;
 }
 
 
