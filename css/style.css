@@ -219,6 +219,11 @@ footer {
   text-align: center;
 }
 
+#abcopy p {
+  color: #ffffff;
+  text-align: center;
+}
+
 #work h2 {
   margin-top: 40px;
 }
