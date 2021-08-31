@@ -243,3 +243,9 @@ text-decoration: none;
 .smalltop {
   margin-top: 0px;
 }
+
+
+#projectcopy p {
+  color: #ffffff;
+  text-align: center;
+}
