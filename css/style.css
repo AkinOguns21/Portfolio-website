@@ -125,6 +125,7 @@ header {
   box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.79);
 -webkit-box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.79);
 -moz-box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.79);
+  position: fixed;
 }
 
 /* Layout styling*/
@@ -179,4 +180,8 @@ nav > ul > li> a {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+}
+
+main {
+  padding-top: 133px;
 }
