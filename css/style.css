@@ -201,3 +201,13 @@ text-align: center;
   text-align: center;
   color: #3197D6;
 }
+
+#work p {
+  text-align: justify;
+}
+
+
+footer {
+  background-color: #394956;
+  padding: 15px 0;
+}
