@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>linkedia_icon</title>
+    <g id="Page-1-Images" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="linkedia_icon" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#007FB5" x="0" y="0" width="15" height="15" rx="2.625"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="2.10703125" y="5.5171875" width="2.11640625" height="7.66875"></rect>
+            <path d="M11.296875,5.5171875 C9.7359375,4.921875 8.60625,5.9296875 8.1234375,6.4921875 L8.1234375,5.5171875 L6.0140625,5.5171875 L6.0140625,13.1859375 L8.1234375,13.1859375 L8.1234375,9.140625 C8.11142864,8.62789722 8.29879126,8.13050408 8.64609375,7.753125 C8.84650182,7.51722191 9.13607745,7.37540627 9.4453125,7.36171875 C9.79101371,7.35508616 10.1244816,7.48965824 10.36875,7.734375 C10.630893,8.00832783 10.7741122,8.37480052 10.7671875,8.75390625 L10.7671875,13.1859375 L13.1484375,13.1859375 L13.1484375,8.4375 C13.1484375,8.4375 13.4132813,6.309375 11.296875,5.5171875 Z" id="Path" fill="#FFFFFF"></path>
+            <circle id="Oval" fill="#FFFFFF" cx="3.1640625" cy="3.1359375" r="1.321875"></circle>
+        </g>
+    </g>
+</svg>
