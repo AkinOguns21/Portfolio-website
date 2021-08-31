@@ -6,7 +6,7 @@ Other Colours (Cream): #F5F4F2
 Other colour (Light Blue): #3197D6
 */
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -190,4 +190,12 @@ main {
 .blurb {
   color: #ffffff;
 text-align: center;
+}
+
+#hero p {
+  font-size: 0.75em;
+}
+
+#work h2 {
+  text-align: center;
 }
