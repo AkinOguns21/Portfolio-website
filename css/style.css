@@ -57,8 +57,8 @@ img {
 }
 
 a {
-  color: #12505a;
-  text-decoration:  none;
+  color: #F5F4F2;
+  text-decoration: underline;
 }
 /*
 a:visited {
@@ -174,10 +174,6 @@ nav > ul > li> a {
 }
 
 #hero {
-  background-color: #ffe4c4;
-}
-
-#hero {
   background-color: #394956;
   padding: 20px 0;
   display: inline-block;
@@ -190,7 +186,7 @@ main {
 
 .blurb {
   color: #ffffff;
-text-align: center;
+  text-align: center;
 }
 
 #hero p {
@@ -210,4 +206,9 @@ text-align: center;
 footer {
   background-color: #394956;
   padding: 15px 0;
+}
+
+#Copyright p {
+  color: #ffffff;
+  text-align: center;
 }
