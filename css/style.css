@@ -121,6 +121,7 @@ a:active {
 
 
 header {
+  width: 100%;
   background-color: #394956;
   text-align: center;
   margin: 10px 0;
@@ -183,7 +184,7 @@ nav > ul > li> a {
 }
 
 main {
-  padding-top: 133px;
+  padding-top: 99px;
 }
 
 .blurb {
@@ -270,6 +271,15 @@ nav {
   float: right;
   margin-top: 4px;
 }
+
+body {
+  font-size: 1.2em;
+}
+
+#hero span {
+  display: block;
+}
+
 
 }
 
