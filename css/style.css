@@ -3,7 +3,7 @@ Colours used:
 Primary colour (Light Grey): #D6DDE3;
 Secondary colour (Dark Grey): #394956;
 Other Colours (Cream): #F5F4F2
-Other colour (Light Blue): #3197D6
+Other colour (Light Blue): #3197D6;
 */
 
 * {
@@ -58,7 +58,7 @@ img {
 }
 
 a {
-  color: #F5F4F2;
+  color: #3197D6;
   text-decoration: none;
 }
 
@@ -72,24 +72,35 @@ a:focus {
   text-decoration: none;
 }
 
+
+ul.navigation a {
+  color: #3197D6;
+  margin-right: 10px;
+}
+
+nav > ul > li > a {
+    color: #3197D6;
+}
+
+/*
 nav > ul > li > a:visited {
     color: #994c30;
 }
-
+*/
 nav > ul > li > a:hover, a:focus {
   color: #D18DCF;
   text-decoration: none;
 }
 
-
+/*
 a:active {
   color: #994c30;
 }
-
+*/
 .button {
   display: inline-block;
   background-color: #3197D6;
-  color: #white;
+  color: #ffffff;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
@@ -101,6 +112,11 @@ a:active {
 .button:active {
   color: #994c30;
 }
+
+a.button {
+  color: white;
+}
+
 
 .button:hover {
   opacity: 0.8;
@@ -185,7 +201,7 @@ nav > ul > li> a {
 }
 
 main {
-  padding-top: 99px;
+  padding-top: 133px;
 }
 
 .blurb {
@@ -288,22 +304,9 @@ text-decoration: none;
   to {transform: translate(200px,50px);}
 }
 
-.cloud-front {
-  animation-duration: 30s;
-  animation-name: cloud-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
 
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
-}
 
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
+
 
 
 
@@ -321,7 +324,7 @@ Medium devices (640px or larger)
 
 header {
   text-align: unset;
-  padding: 20px 0 13px;
+  padding: 20px 0 13px 15px;
 }
 
 nav {
@@ -358,6 +361,21 @@ body {
   margin-top: 0;
 }
 
+#about-page h1 {
+  margin-top: 25px;
+}
+
+main {
+  padding-top: 99px;
+}
+
+
+
+
+
+.animal {
+  width: 100%;
+}
 
 }
 
@@ -392,9 +410,6 @@ body {
 #hero p {
   padding: 0 40px;
 }
-
-
-
 
 
 }
