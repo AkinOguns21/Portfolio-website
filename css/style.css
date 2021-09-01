@@ -244,12 +244,12 @@ text-decoration: none;
   margin-top: 0px;
 }
 
-
+/*
 #projectcopy p {
   color: #ffffff;
   text-align: center;
 }
-
+*/
 
 .centbutton {
   margin: 0 auto;
@@ -294,6 +294,10 @@ body {
   content: "";
   clear: both;
   display: table;
+}
+
+#about-page h3 {
+  margin-top: 0;
 }
 
 
