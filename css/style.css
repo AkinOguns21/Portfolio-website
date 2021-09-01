@@ -304,7 +304,9 @@ text-decoration: none;
   to {transform: translate(200px,50px);}
 }
 
-
+.download {
+margin-left: 245px;
+}
 
 
 
@@ -385,7 +387,9 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
 
 body {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  line-height: 1.6em;
+
 }
 
   .col-lg-7 {
@@ -397,7 +401,7 @@ body {
   }
 
 #hero h1 {
-  font-size: 1.75em;
+  font-size: 2.5em;
   margin-bottom: 0;
 }
 
@@ -409,6 +413,15 @@ body {
 
 #hero p {
   padding: 0 40px;
+}
+
+#myworkstory {
+  padding-top: 150px;
+}
+
+
+.download {
+margin-left: 400px;
 }
 
 
