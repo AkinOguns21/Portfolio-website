@@ -262,8 +262,14 @@ Medium devices (640px or larger)
 
 header {
   text-align: unset;
+  padding: 20px 0 13px;
 }
 
+nav {
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
 
 }
 
