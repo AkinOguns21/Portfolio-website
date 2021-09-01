@@ -280,9 +280,29 @@ body {
   display: block;
 }
 
-col-md-6 {
-  width: 50%; 
+.col-md-6 {
+  width: 50%;
 }
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+
+
 
 }
 
