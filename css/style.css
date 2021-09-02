@@ -334,9 +334,14 @@ margin-left: 245px;
   padding-top: 163px;
 }
 
+.mycv {
+  margin: 10px 42px 10px;
+}
 
-
-
+#about-page ul {
+  padding-left: 0;
+  margin-top: 0;
+}
 
 /*===================================
 Medium devices (640px or larger)
