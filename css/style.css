@@ -232,6 +232,10 @@ main {
   text-align: justify;
 }
 
+#project p {
+  text-align: justify;
+}
+
 
 footer {
   background-color: #394956;
@@ -364,12 +368,16 @@ body {
   line-height: 1.2em;
 }
 
+#hero h2 {
+  letter-spacing: 4px;
+}
+
 #hero span {
   display: block;
 }
 
 .col-md-6 {
-  width: 50%;
+  width: 40%;
 }
 
 [class*="col-"] {
@@ -395,13 +403,75 @@ main {
   padding-top: 99px;
 }
 
+.blurb {
+  padding: 0 38px;
+
+}
 
 
+
+#mainn h3 {
+  margin-top: 0;
+}
 
 
 .animal {
   width: 100%;
 }
+
+
+#mainn footer p {
+  padding: 0 92px;
+}
+
+
+.proj {
+  margin-left: 148px;
+}
+
+
+
+#contact .middle {
+  padding: 0 194px;
+  margin-top: 12px;
+}
+
+#about-page main {
+    padding-top: 99px;
+  }
+
+
+}
+
+#about-page .button.download {
+margin-left: 203px;
+}
+
+
+
+#about-page footer .button.download {
+margin-left: 247px;
+margin-top: 13px;
+}
+
+
+
+#project footer .button.download {
+margin-left: 247px;
+margin-top: 13px;
+}
+
+
+#about-page footer p {
+  padding: 0 92px;
+}
+
+
+#project footer p {
+  padding: 0 92px;
+}
+
+
 
 }
 
@@ -449,6 +519,11 @@ margin-left: 400px;
 }
 
 
+
+
+
+
+
 }
 
 /*===================================
@@ -472,6 +547,8 @@ footer {
   padding-top: 22px;
 
 }
+
+
 
 
 }
