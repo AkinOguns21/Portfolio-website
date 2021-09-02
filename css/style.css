@@ -142,7 +142,7 @@ header {
   background-color: #394956;
   text-align: center;
   margin: 10px 0;
-  padding: 5px 0;
+  padding: 7px 0;
   box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.79);
 -webkit-box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.79);
 -moz-box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.79);
@@ -166,6 +166,12 @@ header {
 #hero h1 {
   text-align: center;
   color: #ffffff;
+}
+
+#hero h2 {
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  margin-top: 0px;
 }
 
 .logo {
@@ -232,7 +238,7 @@ footer {
   padding: 15px 0;
 }
 
-#Copyright p {
+#contact p {
   color: #ffffff;
   text-align: center;
 }
@@ -309,6 +315,15 @@ margin-left: 245px;
 }
 
 
+.middle {
+  padding: 0 35px;
+  margin-top: 12px;
+
+}
+
+#contact .button {
+  margin-left: 93px;
+}
 
 
 
