@@ -24,4 +24,15 @@ var numberFloat = 50.24;
 
 var boolean1 = true;
 var boolean2 = false;
-var notABoolean "false"; //this is just the string false noot false
+var notABoolean = "false"; //this is just the string false not false
+
+
+
+console.log (thisVariableDoesntExist); //will output undefined
+
+
+var emptyVariable = null;
+var notNullButAString = "null";
+console.log(doesntExist); // Outputs undefined
+console.log(emptyVariable); // Outputs Null
+console.log(notNullButAString); // Outputs "null" - not the same as null!
