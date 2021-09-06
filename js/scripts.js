@@ -73,3 +73,43 @@ var notABoolean = "false"; //this is just the string false not false
 
 console.log(boolean1);
 console.log(boolean2);
+
+console.log(notABoolean);
+
+console.log("--------");
+
+
+var emptyVariable = null;
+var notNullButAString = "null";
+//console.log(doesntExist); // Outputs undefined
+console.log(emptyVariable); // Outputs Null
+console.log(notNullButAString); // Outputs "null" - not the same as null!
+//console.log(doesntExist); //outputs undefined
+console.log(emptyVariable);//outputs Null
+console.log(notNullButAString); //outputs "null" not the same as Null
+
+console.log("----");
+
+
+
+
+console.log("Objects");
+
+
+//var person here is the object
+//two value pairs name with the value john and age with the value 39
+
+var person = {
+  name: "john",
+  age: 39
+};
+
+var age = 39;
+var name = "John";
+var personParent = {
+  name: name,
+  age: age,
+  chid: {
+    name: "Sara"
+  }
+};
