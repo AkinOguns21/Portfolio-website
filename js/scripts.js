@@ -156,4 +156,27 @@ console.log(myArray); //outputs [1, 2, 3, "Test" to console]
 console.log("-----");
 
 
+
+
 console.log("functions");
+
+/*
+function add(number1 number2) {
+  //do something here
+}
+*/
+
+
+/* to call this function do the following notation
+var result = add(10, 100);
+*/
+
+var age = 76;
+function doSomething() {
+  var addAge = 10;
+  return age + addAge; //we can access age inside the function
+}
+
+console.log(age); //returns 76 because age was defined outside the funtion.
+
+/* console.log(addAge);//returns undefined because addage was defined inside the functions */
