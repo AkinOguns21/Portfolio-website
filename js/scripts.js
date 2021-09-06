@@ -146,3 +146,8 @@ shortArray[0] = 100; //overwrites the prior value of 1, with 100
 
 
 console.log(shortArray[0]);
+
+var myArray = [1,2];
+myArray.push(3);
+myArray.push("Test");
+console.log(myArray);
