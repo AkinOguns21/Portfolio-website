@@ -136,4 +136,13 @@ var mixedArray = [
 ];
 
 console.log(shortArray[0]); //outputs the first vallue in the mixed Array
-console.log([3][0]);
+console.log([3][0]);//outputs "nested array"
+
+
+//To set the value of an array element
+
+
+shortArray[0] = 100; //overwrites the prior value of 1, with 100
+
+
+console.log(shortArray[0]);
