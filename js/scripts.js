@@ -95,6 +95,7 @@ console.log("----");
 
 console.log("Objects");
 
+console.log("----");
 
 //var person here is the object
 //two value pairs name with the value john and age with the value 39
@@ -120,5 +121,18 @@ var personParent = {
 
 
 personParent.name = "Anne";//set the name propert to Anne
-personParent.child.size = 175; //set the new value that were not set before
-console.log(personParent.child.name); //set output to console
+//personParent.child.size = 175; //set the new value that were not set before
+//console.log(personParent.child.name); //set output to console
+
+console.log("Arrays");
+// Arrays
+
+var shortArray = [1,2,3];
+var mixedArray = [
+  1,
+  "Hello",
+  {},
+  ["nested array"]
+];
+
+console.log(shortArray[0]);
