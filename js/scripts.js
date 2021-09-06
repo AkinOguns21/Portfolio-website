@@ -113,3 +113,12 @@ var personParent = {
     name: "Sara"
   }
 };
+
+
+
+//Accessing or writing property from an object via dot-notation
+
+
+personParent.name = "Anne";//set the name propert to Anne
+personParent.child.size = 175; //set the new value that were not set before
+console.log(personParent.child.name); //set output to console
