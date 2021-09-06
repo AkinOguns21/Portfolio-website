@@ -150,4 +150,10 @@ console.log(shortArray[0]);
 var myArray = [1,2];
 myArray.push(3);
 myArray.push("Test");
-console.log(myArray);
+console.log(myArray); //outputs [1, 2, 3, "Test" to console]
+
+
+console.log("-----");
+
+
+console.log("functions");
