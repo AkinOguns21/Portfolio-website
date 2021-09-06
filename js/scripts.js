@@ -12,11 +12,7 @@ var numberFloat = 50.24;
 
 
 //BOOLEANS
-/*
-var boolean1 = true;
-var boolean2 = false;
-var notABoolean = "false"; //this is just the string false not false
-*/
+
 
 
 //console.log (thisVariableDoesntExist); //will output undefined
@@ -69,3 +65,11 @@ console.log("-----------------");
 console.log("Boolean lessons:");
 
 console.log("--");
+
+var boolean1 = true;
+var boolean2 = false;
+var notABoolean = "false"; //this is just the string false not false
+
+
+console.log(boolean1);
+console.log(boolean2);
