@@ -135,4 +135,5 @@ var mixedArray = [
   ["nested array"]
 ];
 
-console.log(shortArray[0]);
+console.log(shortArray[0]); //outputs the first vallue in the mixed Array
+console.log([3][0]);
