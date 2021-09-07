@@ -180,3 +180,28 @@ function doSomething() {
 console.log(age); //returns 76 because age was defined outside the funtion.
 
 /* console.log(addAge);//returns undefined because addage was defined inside the functions */
+
+
+
+console.log("Functions Lessons");
+console.log("----");
+function add(number1, number2) {
+  return number1 + number2;
+}
+
+var result = add(10, 100); //the value of result will now be 110
+console.log(result);
+var { addAge } = require('./helpers'); //dont mind me im just a helper.
+
+//function scoping
+
+console.log("-------function scoping-------");
+
+
+function doSomething(variable1, variable2) {
+  return variable1 + variable2;
+  return variable1 + ' ' + variable2;
+}
+
+doSomething(1);
+console.log(doSomething(1));
