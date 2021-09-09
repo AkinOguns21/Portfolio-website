@@ -140,7 +140,6 @@ a.button {
 header {
   width: 100%;
   background-color: #394956;
-  text-align: center;
   margin: 10px 0;
   padding: 7px 0;
   box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.79);
@@ -175,7 +174,7 @@ header {
 }
 
 .logo {
-  max-width: 50px;
+  max-width: 150px;
 }
 
 nav > ul {
@@ -381,7 +380,7 @@ body {
 }
 
 .col-md-6 {
-  width: 40%;
+  width: 50%;
 }
 
 [class*="col-"] {
@@ -470,7 +469,9 @@ margin-left: 247px;
 margin-top: 13px;
 }
 
-
+.logo {
+  max-width: 50px;
+}
 
 /*
 #about-page footer p {
