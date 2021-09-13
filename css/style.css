@@ -180,16 +180,16 @@ header {
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
+
+/*
 nav {
   display: inline-block;
   width: 100%;
 }
-
-nav > ul >li {
-  display: inline-block;
-}
+*/
 
 nav > ul > li> a {
   padding: 0 15px;
@@ -350,10 +350,36 @@ margin-left: 42px;
   margin-top: 0;
 }
 
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+
+
+
+
+
 /*===================================
 Medium devices (640px or larger)
 ===================================*/
 @media only screen and (min-width: 640px) {
+
+
+
 
 header {
   text-align: unset;
@@ -472,6 +498,18 @@ margin-top: 13px;
 .logo {
   max-width: 50px;
 }
+
+
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 
 /*
 #about-page footer p {
