@@ -141,7 +141,7 @@ header {
   width: 100%;
   background-color: #394956;
   margin: 10px 0;
-  padding: 7px 0;
+  padding: 10px 0 4px;
   box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.79);
 -webkit-box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.79);
 -moz-box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.79);
