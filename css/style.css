@@ -32,7 +32,7 @@ h1 {
   font-weight: 700;
 }
 
-h2, {
+h2 {
   font-family: 'Spinnaker', sans-serif;
 }
 
@@ -385,9 +385,6 @@ Medium devices (640px or larger)
 ===================================*/
 @media only screen and (min-width: 640px) {
 
-
-
-
 header {
   text-align: unset;
   padding: 20px 0 13px 15px;
@@ -488,57 +485,52 @@ margin-left: 203px;
     padding-top: 99px;
   }
 
-
-}
-
-#about-page .button.download {
-margin-left: 203px;
-}
+  #about-page .button.download {
+    margin-left: 203px;
+    }
 
 
 
-#about-page footer .button.download {
-margin-left: 247px;
-margin-top: 13px;
-}
+    #about-page footer .button.download {
+    margin-left: 247px;
+    margin-top: 13px;
+    }
 
-.logo {
-  max-width: 50px;
-}
+    .logo {
+      max-width: 50px;
+    }
+    .navtoggle  li:not(:last-child) {
+      display: inline-block;
+    }
 
+    .navtoggle li:last-child {
+      display: none;
+    }
 
-
-.navtoggle li:not(:last-child) {
-  display: none;
-}
-
-nav > ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-
-/*
-#about-page footer p {
-  padding: 0 92px;
-}
-*/
-
-.navtoggle.responsive nav {
-  padding: 24px 0 0;
-}
-.navtoggle.responsive li  {
-  display: block;
-  padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
-}
-
-.navtoggle.responsive li:last-child  {
-  padding: 0 0 10px;
-}
+    nav > ul {
+      list-style-type: none;
+      padding: 0;
+    }
 
 
+    /*
+    #about-page footer p {
+      padding: 0 92px;
+    }
+    */
 
+    .navtoggle.responsive nav {
+      padding: 24px 0 0;
+    }
+    .navtoggle.responsive li  {
+      display: block;
+      padding: 10px 0;
+      border-top: 1px solid rgba(255,127,80,0.5);
+    }
+
+    .navtoggle.responsive li:last-child  {
+      padding: 0 0 10px;
+    }
 }
 
 /*===================================
