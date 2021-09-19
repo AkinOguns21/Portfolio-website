@@ -383,7 +383,6 @@ main {
 
 
 
-
 /*===================================
 Medium devices (640px or larger)
 ===================================*/
@@ -586,7 +585,20 @@ body {
 }
 
 
+.proj {
+  margin-left: 345px;
+}
 
+
+.middle {
+  margin-left: 209px;
+
+}
+
+
+.mycv {
+  margin-left: 214px;
+}
 
 
 
@@ -614,6 +626,33 @@ footer {
 
 }
 
+#about-page main {
+    padding-top: 152px;
+  }
+
+
+
+  .proj {
+    margin-left: 488px;
+  }
+
+
+
+  .mycv {
+    margin-left: 400px;
+  }
+
+
+  .middle {
+    margin-left: 352px;
+
+  }
+
+
+
+  #project .proj {
+    margin-left: 488px;
+  }
 
 
 
