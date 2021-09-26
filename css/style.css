@@ -601,6 +601,13 @@ body {
 }
 
 
+#about-page p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+
 
 }
 
@@ -653,6 +660,13 @@ footer {
   #project .proj {
     margin-left: 488px;
   }
+
+
+  #about-page p {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
 
 
 
