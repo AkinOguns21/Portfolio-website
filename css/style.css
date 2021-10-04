@@ -30,6 +30,7 @@ h1, h2, h3 {
 h1 {
   font-size: 1.2em;
   font-weight: 700;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -37,7 +38,7 @@ h2 {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.0em;
   font-weight:300;
 
 }
@@ -406,6 +407,10 @@ body {
 
 #hero h2 {
   letter-spacing: 4px;
+}
+
+#hero h1 {
+  font-size: 2.0em;
 }
 
 #hero span {
