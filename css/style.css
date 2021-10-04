@@ -232,6 +232,10 @@ main {
   text-align: justify;
 }
 
+.aboutbody {
+  padding: 0 13px;
+}
+
 #project p {
   text-align: justify;
 }
