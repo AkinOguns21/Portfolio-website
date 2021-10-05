@@ -321,7 +321,6 @@ margin-left: 42px;
 
 
 
-
 .middle {
   padding: 0 35px;
   margin-top: 12px;
@@ -338,7 +337,7 @@ margin-left: 42px;
 }
 
 .mywork {
-  padding-top: 125px;
+  padding-top: 76px;
 }
 
 .mycv {
@@ -377,9 +376,21 @@ main {
   display: block;
 }
 
-.myproject {
-  padding-top: 108px;
+#project .myproject {
+  padding-top: 106px;
 }
+
+.profilepix {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hotpix {
+  margin: 30px 0;
+}
+
 
 
 
@@ -441,7 +452,6 @@ main {
 
 .blurb {
   padding: 0 38px;
-
 }
 
 #about-page .download {
@@ -540,6 +550,25 @@ margin-left: 203px;
       padding-left: 20px;
       padding-right: 20px;
     }
+
+
+#hero h1 {
+  font-size: 1.4em;
+  margin-bottom: 0;
+}
+
+.profilepix {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
 
 
 
