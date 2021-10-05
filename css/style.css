@@ -393,6 +393,14 @@ main {
 
 
 
+.projectpix {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 /*===================================
 Medium devices (640px or larger)
@@ -425,6 +433,10 @@ body {
 
 .col-md-6 {
   width: 50%;
+}
+
+#about-page .col-md-6 {
+  width: 38%;
 }
 
 [class*="col-"] {
@@ -565,9 +577,16 @@ margin-left: 203px;
 }
 
 
+.mycv {
+  margin: 30px 42px 10px;
+}
 
-
-
+.projectpix {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
@@ -640,9 +659,30 @@ body {
 }
 
 #about-page p {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
+
+#about-page .col-md-6 {
+  margin-left: 78px;
+  width: 25%;
+}
+
+
+.projectpix {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projectwork2 .hotpix {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 }
@@ -699,9 +739,27 @@ footer {
 
 
   #about-page p {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 0 148px;
   }
+
+
+  .profilepix {
+    display: block;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #project p {
+    text-align: justify;
+    padding: 0 148px;
+  }
+
+  #project h3 {
+    margin-left: 153px;
+  }
+
 
 
 
