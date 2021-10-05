@@ -30,7 +30,6 @@ h1, h2, h3 {
 h1 {
   font-size: 1.2em;
   font-weight: 700;
-  margin-bottom: 0px;
 }
 
 h2 {
@@ -38,7 +37,7 @@ h2 {
 }
 
 h2 {
-  font-size: 1.0em;
+  font-size: 1.2em;
   font-weight:300;
 
 }
@@ -230,14 +229,7 @@ main {
 
 #about-page p {
   text-align: justify;
-  padding: 0 13px;
 }
-/*
-.aboutbody {
-  padding: 0 13px;
-}
-*/
-
 
 #project p {
   text-align: justify;
@@ -324,7 +316,7 @@ text-decoration: none;
 
 
 .download {
-/*margin-left: 42px;*/
+margin-left: 42px;
 }
 
 
@@ -346,11 +338,11 @@ text-decoration: none;
 }
 
 .mywork {
-  padding-top: 77px;
+  padding-top: 125px;
 }
 
 .mycv {
-  margin: 16px 85px 10px;
+  margin: 10px 42px 10px;
 }
 
 #about-page ul {
@@ -386,32 +378,9 @@ main {
 }
 
 .myproject {
-  padding-top: 78px;
+  padding-top: 108px;
 }
 
-
-
-.projectpix {
-  display: block;
-  width: 100%;
-margin-left: auto;
-margin-right: auto;
-margin-top: 40px;
-margin-bottom: 40px;
-}
-
-.workpix {
-  display: block;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
-
-}
 
 
 /*===================================
@@ -437,10 +406,6 @@ body {
 
 #hero h2 {
   letter-spacing: 4px;
-}
-
-#hero h1 {
-  font-size: 2.0em;
 }
 
 #hero span {
@@ -570,36 +535,12 @@ margin-left: 203px;
       padding: 0 0 10px;
     }
 
-    .mycv {
-      margin: 30px 44px 10px;
+
+    #about-page p {
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
-
-    .projectpix {
-      display: block;
-      width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
-
-    }
-
-
-.aboutbody {
-  padding: 0 30px;
-}
-
-
-#project p {
-padding: 0 40px;
-}
-
-
-.workpix {
-  width: 64%;
-
-}
 
 
 
@@ -621,11 +562,6 @@ Large devices (1024px or larger)
     margin-top: 4px;
   }
 
-
-
-  #about-page main {
-      padding-top: 112px;
-    }
 
 
 body {
@@ -671,30 +607,12 @@ body {
 
 
 .mycv {
-  margin: 10px 204px 10px;
+  margin-left: 214px;
 }
-
 
 #about-page p {
   padding-left: 40px;
   padding-right: 40px;
-}
-
-
-
-.projectpix {
-  display: block;
-  width: 70%;
-margin-left: auto;
-margin-right: auto;
-margin-top: 40px;
-margin-bottom: 40px;
-
-}
-
-
-#project p {
-padding: 0 50px;
 }
 
 
@@ -735,7 +653,7 @@ footer {
 
 
   .mycv {
-    margin: 50px 399px 10px;
+    margin-left: 400px;
   }
 
 
@@ -754,20 +672,6 @@ footer {
   #about-page p {
     padding-left: 60px;
     padding-right: 60px;
-  }
-
-  .projectpix {
-    display: block;
-    width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-
-  }
-
-
-  #project p {
-  padding: 0 70px;
   }
 
 
