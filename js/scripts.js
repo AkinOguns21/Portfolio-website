@@ -9,7 +9,7 @@ function menuToggle() {
   if (x.className === 'navtoggle') {
     x.className +=  ' responsive';
   } else {
-    x.className = 'navtoggle';
+    x.className = 'navtoggle' ;
   }
 }
 
@@ -218,6 +218,8 @@ console.log(age); //returns 76 because age was defined outside the funtion.
 
 
 /*
+
+
 
 
 
