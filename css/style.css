@@ -199,6 +199,7 @@ nav > ul > li> a {
   color: #394956;
 }
 
+
 #hero {
   background-color: #394956;
   padding: 20px 0;
@@ -535,7 +536,7 @@ margin-left: 203px;
 
     nav > ul {
       list-style-type: none;
-      padding: 0;
+    /*  padding: 0;*/
     }
 
 
