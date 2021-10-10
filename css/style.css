@@ -10,6 +10,7 @@ Other colour (Light Blue): #3197D6;
   box-sizing: border-box;
 }
 
+
 body {
   background-color: #D6DDE3;
   font-family: 'Source Sans Pro', sans-serif;
@@ -637,7 +638,7 @@ body {
   }
 
 .col-md-5 {
-  width: 41:67%;
+  width: 41.67%;
 }
 
 .col-md-7 {
