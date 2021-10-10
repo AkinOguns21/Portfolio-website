@@ -59,13 +59,11 @@ img {
   width: 100%;
 }
 
-/*
+
 a {
-  color: #3197D6;
+  /*color: #3197D6;*/
   text-decoration: none;
 }
-*/
-
 
 /*
 a:visited {
@@ -73,10 +71,9 @@ a:visited {
 }
 */
 
-
 a:hover,
 a:focus {
-  color: #D18DCF;
+  /*color: #D18DCF;*/
   text-decoration: none;
 }
 
@@ -96,8 +93,8 @@ nav > ul > li > a:visited {
 }
 */
 nav > ul > li > a:hover, a:focus {
-  color: #D18DCF;
-  text-decoration: none;
+  /*color: #D18DCF;
+  text-decoration: none;*/
 }
 
 /*
