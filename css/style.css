@@ -10,7 +10,7 @@ Other colour (Light Blue): #3197D6;
 }
 
 body {
-  background-color: #d6dde3;
+  background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -135,8 +135,8 @@ a.button {
 
 header {
   width: 100%;
-  background-color: #394956;
-  margin: 10px 0;
+  background-color: #d6dde3;
+  margin: 0 0;
   padding: 10px 0 4px;
   box-shadow: -1px 11px 9px -5px rgba(0, 0, 0, 0.79);
   -webkit-box-shadow: -1px 11px 9px -5px rgba(0, 0, 0, 0.79);
@@ -158,7 +158,9 @@ header {
 } */
 #hero h1 {
   text-align: center;
-  color: #fff;
+  color: #394956;
+  font-weight: 700;
+  margin-bottom: 3px;
 }
 
 #hero h2 {
@@ -191,7 +193,7 @@ nav > ul > li > a {
 }
 
 #hero {
-  background-color: #394956;
+  background-color: #d6dde3;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -202,17 +204,18 @@ main {
 }
 
 .blurb {
-  color: #fff;
+  color: #394956;
   text-align: center;
 }
 
 #hero p {
-  font-size: 0.75em;
+  font-size: 0.8em;
+  font-weight: 700;
 }
 
 #work h2 {
   text-align: center;
-  color: #3197d6;
+  color: #394956;
 }
 
 #work p {
@@ -248,7 +251,7 @@ footer {
 
 #about-page h1 h2 {
   text-align: center;
-  color: #3197d6;
+  color: #394956;
 }
 
 .button.center {
@@ -537,8 +540,8 @@ Medium devices (640px or larger)
   }
 
   #hero h1 {
-    font-size: 1.4em;
-    margin-bottom: 0;
+    font-size: 2em;
+    margin-bottom: 20px;
   }
 
   .profilepix {
@@ -558,6 +561,23 @@ Medium devices (640px or larger)
     margin-left: auto;
     margin-right: auto;
   }
+
+
+
+  #hero h2 {
+    font-size: 1.5em;
+    line-height: 1.4;
+    letter-spacing: 4px;
+    margin-top: 0;
+  }
+
+
+  #hero p {
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+
 }
 
 /* ===================================
