@@ -53,7 +53,6 @@ h4 {
   font-weight: 700;
 }
 
-
 h5 {
   font-size: 1.5em;
   font-weight: 300;
@@ -148,7 +147,7 @@ a.button {
 header {
   width: 100%;
   background-color: #d6dde3;
-  margin: 0 0;
+  margin: 0;
   padding: 10px 0 4px;
   box-shadow: -1px 11px 9px -5px rgba(0, 0, 0, 0.79);
   -webkit-box-shadow: -1px 11px 9px -5px rgba(0, 0, 0, 0.79);
@@ -411,19 +410,14 @@ main {
   text-align: center;
 }
 
-
 #project h3 {
-  margin-left: 0px;
+margin-left: 0px;
 }
-
 
 #contact h2 {
   color: #fff;
   text-align: center;
 }
-
-
-
 
 /* ===================================
 Medium devices (640px or larger)
@@ -576,7 +570,7 @@ Medium devices (640px or larger)
   }
 
   #about-page h2 {
-  padding-left: 20px;
+    padding-left: 20px;
   }
 
   .profilepix {
@@ -597,8 +591,6 @@ Medium devices (640px or larger)
     margin-right: auto;
   }
 
-
-
   #hero h2 {
     font-size: 1.5em;
     line-height: 1.4;
@@ -606,34 +598,25 @@ Medium devices (640px or larger)
     margin-top: 0;
   }
 
-
   #hero p {
     font-size: 1em;
     font-weight: 700;
   }
 
-
-
   #project .myproject {
     padding-top: 106px;
   }
-
 
   #contact h2 {
     color: #fff;
     text-align: center;
   }
 
-
-
   h5 {
     font-size: 1.5em;
     margin-bottom: 2px;
     margin-top: 24px;
-}
-
-
-
+  }
 }
 
 /* ===================================
@@ -708,45 +691,34 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
 
-
   #about-page h2 {
-  padding-left: 80px;
+    padding-left: 80px;
   }
-
 
   #project p {
     padding-left: 80px;
     padding-right: 80px;
   }
 
-
   #project h2 {
     text-align: center;
   }
 
+  #project h3 {
+    margin-left: 82px;
+  }
 
+  #contact h2 {
+    color: #fff;
+    text-align: center;
+  }
 
-#project h3 {
-  margin-left: 82px;
+  h5 {
+    font-size: 1.6em;
+    margin-bottom: 2px;
+    margin-top: 38px;
+  }
 }
-
-
-#contact h2 {
-  color: #fff;
-  text-align: center;
-}
-
-
-
-h5 {
-  font-size: 1.6em;
-  margin-bottom: 2px;
-  margin-top: 38px;
-}
-
-
-}
-
 
 /* ===================================
 x-Large devices (1440px or larger)
@@ -776,7 +748,6 @@ x-Large devices (1440px or larger)
     margin-left: 400px;
   }
 
-
   #about-page p {
     padding: 0 148px;
   }
@@ -801,29 +772,23 @@ x-Large devices (1440px or larger)
     margin-left: 153px;
   }
 
-
   h1 {
     font-size: 2em;
     font-weight: 700;
   }
 
-
   #about-page h2 {
-  padding-left: 148px;
+    padding-left: 148px;
   }
 
   #contact h2 {
     color: #fff;
     text-align: center;
-}
+  }
 
-
-h5 {
-  font-size: 1.6em;
-  margin-bottom: 2px;
-  margin-top: 38px;
-}
-
-
-
+  h5 {
+    font-size: 1.6em;
+    margin-bottom: 2px;
+    margin-top: 38px;
+  }
 }
