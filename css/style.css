@@ -522,11 +522,11 @@ Medium devices (640px or larger)
   #about-page main {
     padding-top: 99px;
   }
-
+/*
   #about-page .button.download {
     margin-left: 203px;
   }
-
+*/
   #about-page footer .button.download {
     margin-left: 247px;
     margin-top: 13px;
@@ -630,7 +630,7 @@ Medium devices (640px or larger)
   nav > ul {
     padding: 14px;
   }
-  
+
 }
 
 /* ===================================
