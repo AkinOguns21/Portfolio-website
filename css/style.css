@@ -10,7 +10,7 @@ Other colour (Light Blue): #3197D6;
 }
 
 body {
-  background-color: #d6dde3;
+  background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -18,17 +18,19 @@ body {
   color: #394956;
 }
 
-h1 h3 {
-  font-family: 'Khula', sans-serif;
+h1, h3 {
+  font-family: "Khula", sans-serif;
+  font-weight: 800;
 }
 
-h1 h2 h3 {
+h1, h2, h3 {
   line-height: 1.4;
 }
 
 h1 {
-  font-size: 1.2em;
-  font-weight: 700;
+  font-size: 1.1em;
+  font-weight: 800;
+  text-align: center;
 }
 
 h2 {
@@ -38,6 +40,7 @@ h2 {
 h2 {
   font-size: 1.2em;
   font-weight: 300;
+  text-align: center;
 }
 
 h3 {
@@ -49,6 +52,15 @@ h3 {
 h4 {
   font-size: 1.2em;
   font-weight: 700;
+}
+
+h5 {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  color: #fff;
 }
 
 img {
@@ -76,7 +88,7 @@ ul.navigation a {
   margin-right: 10px;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   color: #3197d6;
 }
 
@@ -85,7 +97,7 @@ nav > ul > li > a:visited {
     color: #994c30;
 }
 */
-nav > ul > li > a:hover a:focus {
+nav>ul>li>a:hover a:focus {
   /* color: #D18DCF; */
   text-decoration: none;
 }
@@ -135,8 +147,8 @@ a.button {
 
 header {
   width: 100%;
-  background-color: #394956;
-  margin: 10px 0;
+  background-color: #d6dde3;
+  margin: 0;
   padding: 10px 0 4px;
   box-shadow: -1px 11px 9px -5px rgba(0, 0, 0, 0.79);
   -webkit-box-shadow: -1px 11px 9px -5px rgba(0, 0, 0, 0.79);
@@ -158,11 +170,13 @@ header {
 } */
 #hero h1 {
   text-align: center;
-  color: #fff;
+  color: #394956;
+  font-weight: 800;
+  margin-bottom: 3px;
 }
 
 #hero h2 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   letter-spacing: 2px;
   margin-top: 0;
 }
@@ -191,7 +205,7 @@ nav > ul > li > a {
 }
 
 #hero {
-  background-color: #394956;
+  background-color: #d6dde3;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -202,12 +216,13 @@ main {
 }
 
 .blurb {
-  color: #fff;
+  color: #394956;
   text-align: center;
 }
 
 #hero p {
-  font-size: 0.75em;
+  font-size: 0.8em;
+  font-weight: 700;
 }
 
 #work h2 {
@@ -225,6 +240,10 @@ main {
 
 #project p {
   text-align: justify;
+}
+
+#project h2 {
+  margin-left: 2px;
 }
 
 footer {
@@ -248,7 +267,7 @@ footer {
 
 #about-page h1 h2 {
   text-align: center;
-  color: #3197d6;
+  color: #394956;
 }
 
 .button.center {
@@ -276,21 +295,17 @@ footer {
   height: auto;
 }
 
-/*
 @keyframes color-change {
   from {fill: #EDC655;}
   to {fill: #f76414;}
 }
-*/
 
-/*
 @keyframes color-change {
   0% {fill: #edc655;}
   50% {fill: #fcffad;}
   100% {fill: #f76414;}
 }
 
-*/
 .sun {
   animation-duration: 4s;
   animation-name: color-change;
@@ -309,19 +324,17 @@ footer {
   }
 }
 
-.download {
-  margin-left: 42px;
-}
-
 .middle {
-  padding: 0 35px;
+  /* padding: 0 35px; */
   margin-top: 12px;
+  text-align: center;
 }
 
+/*
 #contact .button {
   margin-left: 93px;
 }
-
+*/
 #about-page main {
   margin-top: 0;
 }
@@ -331,7 +344,7 @@ footer {
 }
 
 .mycv {
-  margin: 10px 42px;
+  text-align: center;
 }
 
 #about-page ul {
@@ -364,7 +377,7 @@ main {
 }
 
 #project .myproject {
-  padding-top: 106px;
+  padding-top: 57px;
 }
 
 .profilepix {
@@ -383,6 +396,27 @@ main {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.proj {
+  text-align: center;
+}
+
+#project h3 {
+  margin-left: 0px;
+}
+
+#contact h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.Copyright {
+  font-size: .65em;
+}
+
+.blueSubhead {
+  color: #3197D6;
 }
 
 /* ===================================
@@ -438,6 +472,7 @@ Medium devices (640px or larger)
 
   #about-page h1 {
     margin-top: 25px;
+    text-align: center;
   }
 
   main {
@@ -446,10 +481,6 @@ Medium devices (640px or larger)
 
   .blurb {
     padding: 0 38px;
-  }
-
-  #about-page .download {
-    margin-left: 203px;
   }
 
   #mainn h3 {
@@ -472,25 +503,12 @@ Medium devices (640px or larger)
     padding: 0 92px;
   }
 
-  .proj {
-    margin-left: 154px;
-  }
-
-  #project .proj {
-    margin-left: 154px;
-  }
-
   #contact .middle {
-    padding: 0 194px;
     margin-top: 12px;
   }
 
   #about-page main {
     padding-top: 99px;
-  }
-
-  #about-page .button.download {
-    margin-left: 203px;
   }
 
   #about-page footer .button.download {
@@ -539,8 +557,12 @@ Medium devices (640px or larger)
   }
 
   #hero h1 {
-    font-size: 1.4em;
-    margin-bottom: 0;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  #about-page h2 {
+    padding-left: 20px;
   }
 
   .profilepix {
@@ -550,15 +572,46 @@ Medium devices (640px or larger)
     margin-right: auto;
   }
 
-  .mycv {
-    margin: 30px 42px 10px;
-  }
-
   .projectpix {
     display: block;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #hero h2 {
+    font-size: 1.5em;
+    line-height: 1.4;
+    letter-spacing: 4px;
+    margin-top: 0;
+  }
+
+  #hero p {
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  #project .myproject {
+    padding-top: 106px;
+  }
+
+  #contact h2 {
+    color: #fff;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 1.5em;
+    margin-bottom: 2px;
+    margin-top: 24px;
+  }
+
+  nav > ul {
+    padding: 14px;
+  }
+
+  #hero {
+    margin-top: -10px;
   }
 }
 
@@ -606,18 +659,6 @@ Large devices (1024px or larger)
     width: 58.33%;
   }
 
-  .proj {
-    margin-left: 345px;
-  }
-
-  .middle {
-    margin-left: 209px;
-  }
-
-  .mycv {
-    margin-left: 214px;
-  }
-
   #about-page p {
     padding-left: 80px;
     padding-right: 80px;
@@ -640,6 +681,34 @@ Large devices (1024px or larger)
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #about-page h2 {
+    padding-left: 80px;
+  }
+
+  #project p {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  #project h2 {
+    text-align: center;
+  }
+
+  #project h3 {
+    margin-left: 82px;
+  }
+
+  #contact h2 {
+    color: #fff;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 1.6em;
+    margin-bottom: 2px;
+    margin-top: 38px;
   }
 }
 
@@ -667,22 +736,6 @@ x-Large devices (1440px or larger)
     padding-top: 152px;
   }
 
-  .proj {
-    margin-left: 488px;
-  }
-
-  .mycv {
-    margin-left: 400px;
-  }
-
-  .middle {
-    margin-left: 352px;
-  }
-
-  #project .proj {
-    margin-left: 488px;
-  }
-
   #about-page p {
     padding: 0 148px;
   }
@@ -699,7 +752,35 @@ x-Large devices (1440px or larger)
     padding: 0 148px;
   }
 
+  #contact p {
+    text-align: center;
+  }
+
   #project h3 {
     margin-left: 153px;
+  }
+
+  h1 {
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  #about-page h2 {
+    padding-left: 148px;
+  }
+
+  #contact h2 {
+    color: #fff;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 1.6em;
+    margin-bottom: 2px;
+    margin-top: 38px;
+  }
+
+  nav > ul {
+    padding: 20px;
   }
 }
