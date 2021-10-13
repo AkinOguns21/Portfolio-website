@@ -323,11 +323,11 @@ footer {
     transform: translate(200px, 50px);
   }
 }
-
+/*
 .download {
   margin-left: 42px;
 }
-
+*/
 .middle {
   /* padding: 0 35px; */
   margin-top: 12px;
@@ -348,7 +348,7 @@ footer {
 }
 
 .mycv {
-  margin: 10px 42px;
+text-align: center;
 }
 
 #about-page ul {
@@ -490,11 +490,11 @@ Medium devices (640px or larger)
   .blurb {
     padding: 0 38px;
   }
-
+/*
   #about-page .download {
     margin-left: 203px;
   }
-
+*/
   #mainn h3 {
     margin-top: 0;
   }
@@ -588,10 +588,6 @@ Medium devices (640px or larger)
     margin-right: auto;
   }
 
-  .mycv {
-    margin: 30px 42px 10px;
-  }
-
   .projectpix {
     display: block;
     width: 100%;
@@ -676,11 +672,11 @@ Large devices (1024px or larger)
   .col-md-7 {
     width: 58.33%;
   }
-
+/*
   .mycv {
     margin-left: 214px;
   }
-
+*/
   #about-page p {
     padding-left: 80px;
     padding-right: 80px;
@@ -756,10 +752,6 @@ x-Large devices (1440px or larger)
 
   #about-page main {
     padding-top: 152px;
-  }
-
-  .mycv {
-    margin-left: 400px;
   }
 
   #about-page p {
