@@ -185,7 +185,7 @@ header {
   max-width: 36px;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -197,7 +197,7 @@ nav {
   width: 100%;
 }
 */
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -323,11 +323,7 @@ footer {
     transform: translate(200px, 50px);
   }
 }
-/*
-.download {
-  margin-left: 42px;
-}
-*/
+
 .middle {
   /* padding: 0 35px; */
   margin-top: 12px;
@@ -348,7 +344,7 @@ footer {
 }
 
 .mycv {
-text-align: center;
+  text-align: center;
 }
 
 #about-page ul {
@@ -415,17 +411,13 @@ main {
   text-align: center;
 }
 
-
-
 .Copyright {
   font-size: .65em;
 }
 
-
 .blueSubhead {
   color: #3197D6;
 }
-
 
 /* ===================================
 Medium devices (640px or larger)
@@ -490,11 +482,7 @@ Medium devices (640px or larger)
   .blurb {
     padding: 0 38px;
   }
-/*
-  #about-page .download {
-    margin-left: 203px;
-  }
-*/
+
   #mainn h3 {
     margin-top: 0;
   }
@@ -522,11 +510,7 @@ Medium devices (640px or larger)
   #about-page main {
     padding-top: 99px;
   }
-/*
-  #about-page .button.download {
-    margin-left: 203px;
-  }
-*/
+
   #about-page footer .button.download {
     margin-left: 247px;
     margin-top: 13px;
@@ -544,7 +528,7 @@ Medium devices (640px or larger)
     display: none;
   }
 
-  nav>ul {
+  nav > ul {
     list-style-type: none;
   }
 
@@ -622,11 +606,13 @@ Medium devices (640px or larger)
     margin-top: 24px;
   }
 
-
   nav > ul {
     padding: 14px;
   }
 
+  #hero {
+    margin-top: -10px;
+  }
 }
 
 /* ===================================
@@ -672,11 +658,7 @@ Large devices (1024px or larger)
   .col-md-7 {
     width: 58.33%;
   }
-/*
-  .mycv {
-    margin-left: 214px;
-  }
-*/
+
   #about-page p {
     padding-left: 80px;
     padding-right: 80px;
@@ -798,10 +780,7 @@ x-Large devices (1440px or larger)
     margin-top: 38px;
   }
 
-
-  nav>ul {
+  nav > ul {
     padding: 20px;
   }
-
-
 }
