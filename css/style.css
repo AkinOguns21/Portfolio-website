@@ -27,8 +27,9 @@ h1 h2 h3 {
 }
 
 h1 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 700;
+  text-align: center;
 }
 
 h2 {
@@ -38,6 +39,7 @@ h2 {
 h2 {
   font-size: 1.2em;
   font-weight: 300;
+  text-align: center;
 }
 
 h3 {
@@ -49,6 +51,16 @@ h3 {
 h4 {
   font-size: 1.2em;
   font-weight: 700;
+}
+
+
+h5 {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  color: #fff;
 }
 
 img {
@@ -405,7 +417,10 @@ main {
 }
 
 
-
+#contact h2 {
+  color: #fff;
+  text-align: center;
+}
 
 
 
@@ -604,6 +619,18 @@ Medium devices (640px or larger)
   }
 
 
+  #contact h2 {
+    color: #fff;
+    text-align: center;
+  }
+
+
+
+  h5 {
+    font-size: 1.5em;
+    margin-bottom: 2px;
+    margin-top: 24px;
+}
 
 
 
@@ -704,7 +731,18 @@ Large devices (1024px or larger)
 }
 
 
+#contact h2 {
+  color: #fff;
+  text-align: center;
+}
 
+
+
+h5 {
+  font-size: 1.6em;
+  margin-bottom: 2px;
+  margin-top: 38px;
+}
 
 
 }
@@ -738,9 +776,6 @@ x-Large devices (1440px or larger)
     margin-left: 400px;
   }
 
-  #project .proj {
-    margin-left: 488px;
-  }
 
   #about-page p {
     padding: 0 148px;
@@ -758,6 +793,10 @@ x-Large devices (1440px or larger)
     padding: 0 148px;
   }
 
+  #contact p {
+    text-align: center;
+  }
+
   #project h3 {
     margin-left: 153px;
   }
@@ -772,6 +811,19 @@ x-Large devices (1440px or larger)
   #about-page h2 {
   padding-left: 148px;
   }
+
+  #contact h2 {
+    color: #fff;
+    text-align: center;
+}
+
+
+h5 {
+  font-size: 1.6em;
+  margin-bottom: 2px;
+  margin-top: 38px;
+}
+
 
 
 }
