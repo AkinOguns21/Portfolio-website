@@ -182,7 +182,7 @@ header {
 }
 
 .logo {
-  max-width: 36px;
+  max-width: 100px;
 }
 
 nav > ul {
@@ -517,7 +517,8 @@ Medium devices (640px or larger)
   }
 
   .logo {
-    max-width: 50px;
+    max-width: 118px;
+    margin-top: 5px;
   }
 
   .navtoggle li:not(:last-child) {
@@ -710,6 +711,18 @@ Large devices (1024px or larger)
     margin-bottom: 2px;
     margin-top: 38px;
   }
+
+  .logo {
+    max-width: 190px;
+    margin-top: 5px;
+  }
+
+
+
+
+
+
+
 }
 
 /* ===================================
@@ -783,4 +796,12 @@ x-Large devices (1440px or larger)
   nav > ul {
     padding: 20px;
   }
+
+  .logo {
+    max-width: 232px;
+    margin-top: 3px;
+  }
+
+
+
 }
