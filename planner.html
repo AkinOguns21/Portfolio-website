@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-
-
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,34 +13,31 @@
   <link href="https://fonts.googleapis.com/css2?family=Spinnaker&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <script src="https://kit.fontawesome.com/3e1310f226.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Khula:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-210325428-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-210325428-1');
+  gtag('config', 'UA-210325428-1');
   </script>
-  <title>home</title>
+  <title>Student Planner</title>
 </head>
+
 <!-- END OF HEAD -->
 
-<body id="mainn">
+<body id="planner">
 
   <!--START OF HEADER SECTION-->
   <header>
     <div class="container">
+      <!--open inner container-->
       <div class="navtoggle" id="myNavtoggle">
+        <!--Hamberger menue div-->
         <a href="index.html"><img class="logo" src="img/logo.png" alt="LogoImage"></a>
         <nav>
           <ul class="navigation">
@@ -53,133 +47,31 @@
             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
+        <!--end navigation section -->
       </div>
     </div>
+    <!--end of container-->
   </header>
   <!--end header-->
-  <!-- END OF HEADER -->
-
   <!--START MAIN SECTION-->
-  <main>
-    <div id="hero">
-      <div class="container">
-        <h1>Hi, my name is Akin Ogunlolu</h1>
-        <h2 class="blurb"><span>I'm a UI Researcher &amp; <br>Designer from London!</span></h2>
-        <p class="blurb">Hi, I’m Akin, a UI Designer with a graphics and digital “design-in-print” technical application support background. I have worked with print applications &amp; digital workflows for major print equipment manufacturers. I
-          also engage in photography and videography but I am passionate about creating aesthetically pleasing pixel perfect designs. <a href="about.html">..read more</a></p>
-      </div> <!-- end of hero writeup -->
-    </div>
+  <main class="myproject">
 
-    <div id="work">
-      <div class="container">
-        <h2>My Work</h2>
-        <!--START PROJECT BLOCK-->
-
-        <div class="row">
-          <!-- start row 1Left -->
-          <div class="column col-md-6 col-lg-7">
-            <picture>
-              <source srcset="img/kinso/kinso_home@0.5x.jpg" media="(max-width:767px)">
-              <source srcset="img/kinso/kinso_home@1x.jpg" media="(max-width:767px)">
-              <source srcset="img/kinso/kinso_home@2x.jpg" media="(max-width:1200px)">
-              <img src="img/kinso/kinso_home@1x.jpg" alt="mockup">
-            </picture> <!-- end hotshop picture 2-->
-          </div>
-          <div class="column col-md-6 col-lg-5">
-            <h3>Kinso Recipe App</h3>
-            <p class="smalltop">“Kinso” is a responsive recipe app that explores problems users may face when the joy of cooking is spoilt by the unavailability of vital ingredients when they are most needed.</p>
-            <!--<p>The application of lean processes to cooking practices attempts to tie cooking habits with shopping practices so that when both are in tune.</p>-->
-            <!--Button for caption 1-->
-            <a href="kinso.html" class="button">View Project</a>
-          </div>
-        </div>
-        <!--end row 1-->
-
-        <div class="row">
-          <!--Start row 2 Right-->
-          <div class="column col-md-6 col-lg-7">
-            <!-- 6 = 50% and 7= 58.33% -->
-            <picture>
-              <source srcset="img/hotshop/hotshop_home@0.5x.jpg" media="(max-width:767px)">
-              <source srcset="img/hotshop/hotshop_home@1x.jpg" media="(max-width:767px)">
-              <source srcset="img/hotshop/hotshop_home@2x.jpg" media="(max-width:767px)">
-              <img src="img/hotshop/hotshop_home@1x.jpg" alt="mockup">
-            </picture>
-            <!--end hotshop picture 2-->
-          </div>
-          <div class="column col-md-6 col-lg-5">
-            <!-- 5 = 41.66%-->
-            <h3>Hotshop online Stores</h3>
-            <!--start caption 2-->
-            <p class="smalltop">Online shopping has become so essential today but the insertion of promotions when a user has already made a buying decision can pose a stumbling block in the order process. “Hotshop the app”
-              <!--has come to-->understands users first preference to be the freedom to order on any device and at any time
-              <!--and secondly to find out about the experiences of others of the same product-->
-            </p>
-            <!--Button for caption 2-->
-            <a href="hotshop.html" class="button">View Project</a>
-          </div>
-        </div>
-        <!--end of row 2-->
-
-        <div class="row">
-          <!--Start row 3 Right-->
-          <div class="column col-md-6 col-lg-7">
-            <!-- 6 = 50% and 7= 58.33% -->
-            <picture>
-              <source srcset="img/studentplanner/productivityhome@0.5x.jpg" media="(max-width:767px)">
-              <source srcset="img/studentplanner/productivityhome@1x.jpg" media="(max-width:767px)">
-              <source srcset="img/studentplanner/productivityhome@2x.jpg" media="(max-width:767px)">
-              <img src="img/studentplanner/productivityhome@1x.jpg" alt="planner mockup">
-            </picture>
-            <!--end planner picture home-->
-          </div>
-          <div class="column col-md-6 col-lg-5">
-            <!-- 5 = 41.66%-->
-            <h3>Student Productivity Planner</h3>
-            <!--start caption 3-->
-            <p class="smalltop">Student planner text here
-
-            </p>
-            <!--Button for caption 3-->
-            <a href="planner.html" class="button">View Project</a>
-          </div>
-        </div>
-        <!--end of row 3-->
-
-
-
-
-
-
-
-
-
-      </div>
-    </div>
-    <div class="">
-
-      <!--  animation removed from here -->
-
-    </div>
   </main>
-  <!--end main main content area-->
-  <!--end of project section-->
-
-  <!--END OF MAIN CONTENT SECTION-->
 
   <!--START FOOTER SECTION -->
   <footer id="contact">
     <div class="container">
-      <h5>Get in Touch</h5>
-      <p>Do you like my work? I would be happy to talk with you Call: <a href="tel:+447931126721">+44 7931126721</a> or skype me at <a href="skype:hello.akinoguns">hello.akinoguns</a>
+      <h5 class="proj">Get in Touch</h5>
+      <p>Do you like my work? I would be happy to talk with you
+        Call:<a href="tel:+447931126721">+44 7931126721</a> or skype me at <a href="skype:hello.akinoguns">hello.akinoguns.com</a>
       </p>
+
 
       <!-- Button Start -->
 
       <div class="proj">
         <a href="mailto:akinogunlolu@gmail.com?subject=Contact request" class="button contact">Send email</a>
       </div>
-
 
       <!--Button end -->
 
@@ -561,13 +453,11 @@
 
       <!--end of social section -->
 
-
       <p class="Copyright">&copy; Copyright Akin Ogunlolu 2021</p>
     </div>
-
   </footer>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+
+
 </body>
 
 </html>
