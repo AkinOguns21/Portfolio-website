@@ -118,11 +118,11 @@ a:active {
   border-bottom: 2px solid #394956;
   transition: 0.2s opacity;
 }
-
+/*
 .button:active {
   color: #994c30;
 }
-
+*/
 a.button {
   color: white;
   transition: background .3s ease-in,
@@ -433,6 +433,21 @@ main {
   color: #3197D6;
 }
 
+
+.simplyfybkg {
+  background: #e2e2e2;
+}
+
+
+.mocks {
+  text-align: center;
+}
+
+
+
+
+
+
 /* ===================================
 Medium devices (640px or larger)
 =================================== */
@@ -697,6 +712,14 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
+
+  #simplifypage .hotpix {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
   #about-page h2 {
     padding-left: 80px;
