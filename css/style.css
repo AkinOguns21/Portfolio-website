@@ -444,6 +444,21 @@ main {
 }
 
 
+.vid {
+  width: 100%;
+  text-align: center;
+}
+
+.protosample {
+  padding-bottom: 5.25%;
+  position: inherit;
+  display: block;
+  width: 50%;
+  margin-left: 70px;
+}
+
+
+
 
 
 
@@ -643,7 +658,24 @@ Medium devices (640px or larger)
   #hero {
     margin-top: -10px;
   }
+
+
+
+  .vid {
+    width: 100%;
+    text-align: center;
 }
+
+.protosample {
+  padding-bottom: 5.25%;
+  position: inherit;
+  display: block;
+  width: 24%;
+  margin-left: 140px;
+}
+
+}
+
 
 /* ===================================
 Large devices (1024px or larger)
@@ -755,10 +787,19 @@ Large devices (1024px or larger)
   }
 
 
+  .vid {
+    width: 100%;
+    text-align: center;
+}
 
 
-
-
+.protosample {
+  padding-bottom: 5.25%;
+  position: inherit;
+  display: block;
+  width: 14%;
+  margin-left: 245px;
+}
 
 }
 
@@ -839,6 +880,20 @@ x-Large devices (1440px or larger)
     margin-top: 3px;
   }
 
+
+.vid {
+  width: 100%;
+  text-align: center;
+}
+
+
+.protosample {
+  padding-bottom: 5.25%;
+  position: inherit;
+  display: block;
+  width: 10%;
+  margin-left: 240px;
+}
 
 
 }
